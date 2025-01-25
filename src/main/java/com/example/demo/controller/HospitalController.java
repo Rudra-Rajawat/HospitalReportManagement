@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.demo.controller;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Hospital {
+public class HospitalController {
 	private int hId;
 	private String hName;
 }

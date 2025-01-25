@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.demo.controller;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Patient {
+public class PatientController {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int pId;
